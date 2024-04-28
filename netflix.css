@@ -1,0 +1,142 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#header{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("images/header-image.png");
+
+}
+#logo{
+    width: 150px;
+}
+#header{
+        width: 100%;
+    height: 100vh;
+    }
+#btn{
+    padding-right: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 11.75%;
+    padding-right: 11.75%;
+
+}
+#languges-btn{
+    padding: 5.5px;
+    background: transparent;
+    color: white;
+    border: solid 1px ;
+    display: inline-flex;
+    align-items: center;
+}
+#mi{
+    width: 13px;
+    margin: 0 5px;
+}
+#wor{
+    width: 18px;
+    margin: 0 5px;
+}
+#sing-btn{
+    padding: 8.25px 14px;
+    margin:0 10px;
+    color: white;
+    background-color: red;
+    border: hidden; 
+    border-radius: 3px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+#tir{
+    padding-top:  18%  ;
+    justify-content: center;
+    align-items: center;
+}
+
+#description{
+    color: white;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    
+}
+form button ,input{
+    height: 55px;
+}
+form input{
+    padding-right: 250px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , transparent;
+    border:solid 1px rgba(255, 255, 255, 0.466);
+    border-radius: 3px;
+    padding-left: 8px;
+}
+form input::placeholder{
+    font-size: 15px;
+    font-weight:bold ;
+}
+form button{
+    padding: 0 25px ;
+    color: white;
+    background-color: red;
+    border: hidden;
+    border-radius: 2px;
+    margin-left: -1px;
+    font-weight: 600;
+    font-size: 16px;
+}
+#tir h3{
+    margin:  8px 0;
+    font-size: 20px;
+}
+#tir p{
+    font-size: 24px;
+}
+#tir h1{
+    font-size: 48px;
+}
+#content img{
+    width: 37.75%;
+}
+#content div{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    flex-basis: 50%;
+    margin-top: 80px
+}
+
+#text p{
+    color: white;
+    font-size: 24px;
+    margin-top: 16px;
+    height: 90px;
+    width: 75%;
+    text-align:left;
+}
+#text h2{
+    color: white;
+    font-size: 48px;
+    align-items:flex-start;
+}
+#text{
+    display: flex;
+    align-items: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    padding-left: 65px;
+}
